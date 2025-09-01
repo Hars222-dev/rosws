@@ -1,0 +1,21 @@
+{
+  "package_name": "ros_ign_interfaces",
+  "non_idl_tuples": [
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/Contact.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/Contacts.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/Entity.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/EntityFactory.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/GuiCamera.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/JointWrench.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/Light.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/StringVec.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/TrackVisual.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/VideoRecord.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/WorldControl.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:msg/WorldReset.msg",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:srv/ControlWorld.srv",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:srv/DeleteEntity.srv",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:srv/SetEntityPose.srv",
+    "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces:srv/SpawnEntity.srv"
+  ]
+}

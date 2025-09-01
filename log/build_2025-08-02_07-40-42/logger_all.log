@@ -1,0 +1,467 @@
+[0.217s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.217s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9cbd59f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9cbd5480>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9cbd5480>>)
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.427s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hars22/rosws'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilebot' with type 'ros.ament_cmake' and name 'mobilebot'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilebot_controller' with type 'ros.ament_cmake' and name 'mobilebot_controller'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_python' and name 'robot'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/materials/textures) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/meshes) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_barrel/thumbnails) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/materials/textures) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/meshes) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(world_meshes/construction_cone/thumbnails) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/hars22/rosws/install
+[0.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 433 installed packages in /opt/ros/humble
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_target' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_clean_first' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_force_configure' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'ament_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.655s] DEBUG:colcon.colcon_core.verb:Building package 'mobilebot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/mobilebot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/mobilebot', 'merge_install': False, 'path': '/home/hars22/rosws/src/mobilebot', 'symlink_install': False, 'test_result_base': None}
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_target' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.655s] DEBUG:colcon.colcon_core.verb:Building package 'mobilebot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/mobilebot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/mobilebot_controller', 'merge_install': False, 'path': '/home/hars22/rosws/src/mobilebot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/robot', 'merge_install': False, 'path': '/home/hars22/rosws/src/robot', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/robot_description', 'merge_install': False, 'path': '/home/hars22/rosws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.656s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hars22/rosws/src/mobilebot' with build type 'ament_cmake'
+[0.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hars22/rosws/src/mobilebot'
+[0.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.664s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hars22/rosws/src/mobilebot_controller' with build type 'ament_cmake'
+[0.664s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hars22/rosws/src/mobilebot_controller'
+[0.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.667s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hars22/rosws/src/robot' with build type 'ament_python'
+[0.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/ament_prefix_path.sh'
+[0.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.674s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hars22/rosws/src/robot_description' with build type 'ament_cmake'
+[0.674s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hars22/rosws/src/robot_description'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot -- -j4 -l4
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.964s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hars22/rosws/src/robot'
+[0.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/robot_description -- -j4 -l4
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot -- -j4 -l4
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/robot_description -- -j4 -l4
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/robot_description
+[1.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot_controller)
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake module files
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot_controller', 'cmake_prefix_path')
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.sh'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/pkgconfig/mobilebot_controller.pc'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/python3.10/site-packages'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.sh'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.bash'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot_controller/share/colcon-core/packages/mobilebot_controller)
+[1.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot_controller)
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake module files
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake config files
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot_controller', 'cmake_prefix_path')
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.sh'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/pkgconfig/mobilebot_controller.pc'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/python3.10/site-packages'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.sh'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.bash'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.zsh'
+[1.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot_controller/share/colcon-core/packages/mobilebot_controller)
+[1.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot)
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake module files
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake config files
+[1.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot', 'cmake_prefix_path')
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.ps1'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.sh'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/pkgconfig/mobilebot.pc'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/python3.10/site-packages'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.bash'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.zsh'
+[1.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot/share/colcon-core/packages/mobilebot)
+[1.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot)
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake module files
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake config files
+[1.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot', 'cmake_prefix_path')
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.sh'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/pkgconfig/mobilebot.pc'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/python3.10/site-packages'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[1.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.bash'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.zsh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot/share/colcon-core/packages/mobilebot)
+[1.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/robot_description
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake module files
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake config files
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/package.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.sh'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.bash'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.zsh'
+[1.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/robot_description/share/colcon-core/packages/robot_description)
+[1.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake module files
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake config files
+[1.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/python3.10/site-packages'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/package.dsv'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.sh'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.bash'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.zsh'
+[1.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/robot_description/share/colcon-core/packages/robot_description)
+[1.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/src/robot': PYTHONPATH=/home/hars22/rosws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hars22/rosws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/hars22/rosws/build/robot/build install --record /home/hars22/rosws/build/robot/install.log --single-version-externally-managed install_data
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot' for CMake module files
+[1.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/src/robot' returned '0': PYTHONPATH=/home/hars22/rosws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hars22/rosws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/hars22/rosws/build/robot/build install --record /home/hars22/rosws/build/robot/install.log --single-version-externally-managed install_data
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot' for CMake config files
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/lib'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/bin'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/lib/pkgconfig/robot.pc'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/lib/python3.10/site-packages'
+[1.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/pythonpath.ps1'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot/share/robot/hook/pythonpath.dsv'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/pythonpath.sh'
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/bin'
+[1.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/robot/share/robot/package.dsv'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.sh'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.bash'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.zsh'
+[1.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/robot/share/colcon-core/packages/robot)
+[1.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.896s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.903s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.952s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.ps1'
+[1.955s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hars22/rosws/install/_local_setup_util_ps1.py'
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.ps1'
+[1.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.sh'
+[1.963s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hars22/rosws/install/_local_setup_util_sh.py'
+[1.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.sh'
+[1.967s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.bash'
+[1.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.bash'
+[1.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.zsh'
+[1.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.zsh'

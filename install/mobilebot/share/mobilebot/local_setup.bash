@@ -1,0 +1,1 @@
+/home/hars22/rosws/build/mobilebot/ament_cmake_environment_hooks/local_setup.bash

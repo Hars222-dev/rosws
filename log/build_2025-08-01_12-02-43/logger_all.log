@@ -1,0 +1,313 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8bb1a410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8bb19ea0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8bb19ea0>>)
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hars22/rosws'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilebot' with type 'ros.ament_cmake' and name 'mobilebot'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilebot_controller) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilebot_controller' with type 'ros.ament_cmake' and name 'mobilebot_controller'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_python' and name 'robot'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/hars22/rosws/install
+[0.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 433 installed packages in /opt/ros/humble
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'mobilebot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'mobilebot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/mobilebot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/mobilebot', 'merge_install': False, 'path': '/home/hars22/rosws/src/mobilebot', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'mobilebot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'mobilebot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/mobilebot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/mobilebot_controller', 'merge_install': False, 'path': '/home/hars22/rosws/src/mobilebot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/robot', 'merge_install': False, 'path': '/home/hars22/rosws/src/robot', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hars22/rosws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hars22/rosws/install/robot_description', 'merge_install': False, 'path': '/home/hars22/rosws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hars22/rosws/src/mobilebot' with build type 'ament_cmake'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hars22/rosws/src/mobilebot'
+[0.286s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hars22/rosws/src/mobilebot_controller' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hars22/rosws/src/mobilebot_controller'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hars22/rosws/src/robot' with build type 'ament_python'
+[0.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/ament_prefix_path.sh'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hars22/rosws/src/robot_description' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hars22/rosws/src/robot_description'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot -- -j4 -l4
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.555s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hars22/rosws/src/robot'
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/robot_description -- -j4 -l4
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot -- -j4 -l4
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
+[0.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot_controller)
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake module files
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake config files
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot_controller', 'cmake_prefix_path')
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.sh'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/pkgconfig/mobilebot_controller.pc'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/python3.10/site-packages'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.bash'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.zsh'
+[0.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot_controller/share/colcon-core/packages/mobilebot_controller)
+[0.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot_controller)
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake module files
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller' for CMake config files
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot_controller', 'cmake_prefix_path')
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/hook/cmake_prefix_path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/pkgconfig/mobilebot_controller.pc'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/lib/python3.10/site-packages'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot_controller/bin'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.bash'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.zsh'
+[0.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot_controller/share/colcon-core/packages/mobilebot_controller)
+[0.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot)
+[0.614s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake module files
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/mobilebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake config files
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot', 'cmake_prefix_path')
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.ps1'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/pkgconfig/mobilebot.pc'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/python3.10/site-packages'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.sh'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.bash'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.zsh'
+[0.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot/share/colcon-core/packages/mobilebot)
+[0.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobilebot)
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake module files
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot' for CMake config files
+[0.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobilebot', 'cmake_prefix_path')
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/mobilebot/share/mobilebot/hook/cmake_prefix_path.sh'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/pkgconfig/mobilebot.pc'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/lib/python3.10/site-packages'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/mobilebot/bin'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.sh'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.bash'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/mobilebot/share/mobilebot/package.zsh'
+[0.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/mobilebot/share/colcon-core/packages/mobilebot)
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/robot_description -- -j4 -l4
+[0.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/robot_description
+[0.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake module files
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/robot_description
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake config files
+[0.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/python3.10/site-packages'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.ps1'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/package.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.sh'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.bash'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.zsh'
+[0.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake module files
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description' for CMake config files
+[0.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/lib/python3.10/site-packages'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot_description/bin'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/robot_description/share/robot_description/package.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.sh'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.bash'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot_description/share/robot_description/package.zsh'
+[0.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hars22/rosws/src/robot': PYTHONPATH=/home/hars22/rosws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hars22/rosws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/hars22/rosws/build/robot/build install --record /home/hars22/rosws/build/robot/install.log --single-version-externally-managed install_data
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot' for CMake module files
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hars22/rosws/src/robot' returned '0': PYTHONPATH=/home/hars22/rosws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hars22/rosws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/hars22/rosws/build/robot/build install --record /home/hars22/rosws/build/robot/install.log --single-version-externally-managed install_data
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot' for CMake config files
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/lib'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/bin'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/lib/pkgconfig/robot.pc'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/lib/python3.10/site-packages'
+[1.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/pythonpath.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hars22/rosws/install/robot/share/robot/hook/pythonpath.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hars22/rosws/install/robot/share/robot/hook/pythonpath.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/hars22/rosws/install/robot/bin'
+[1.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hars22/rosws/install/robot/share/robot/package.dsv'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.sh'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hars22/rosws/install/robot/share/robot/package.zsh'
+[1.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hars22/rosws/install/robot/share/colcon-core/packages/robot)
+[1.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.132s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.132s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.154s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hars22/rosws/install/_local_setup_util_ps1.py'
+[1.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.sh'
+[1.158s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hars22/rosws/install/_local_setup_util_sh.py'
+[1.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.sh'
+[1.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.bash'
+[1.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.bash'
+[1.160s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hars22/rosws/install/local_setup.zsh'
+[1.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hars22/rosws/install/setup.zsh'
