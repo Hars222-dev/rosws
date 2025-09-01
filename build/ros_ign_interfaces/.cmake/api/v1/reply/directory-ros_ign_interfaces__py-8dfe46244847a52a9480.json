@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros_ign_interfaces__py",
+		"source" : "/home/hars22/rosws/build/ros_ign_interfaces/ros_ign_interfaces__py"
+	}
+}

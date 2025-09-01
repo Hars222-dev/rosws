@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8cdb92824f39093fd6ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros_ign_interfaces__py",
+					"jsonFile" : "directory-ros_ign_interfaces__py-8dfe46244847a52a9480.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hars22/rosws/build/ros_ign_interfaces/ros_ign_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros_ign_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros_ign_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros_ign_interfaces_egg-90e7757729957e1d46a1.json",
+					"name" : "ament_cmake_python_build_ros_ign_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ros_ign_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ros_ign_interfaces-da45397bf585488d05b5.json",
+					"name" : "ament_cmake_python_symlink_ros_ign_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces-faedd2da7ea20ea7b30d.json",
+					"name" : "ros_ign_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__cpp-c383673544dab83825a0.json",
+					"name" : "ros_ign_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros_ign_interfaces__py::@da2dd3b3f7f60beeaec9",
+					"jsonFile" : "target-ros_ign_interfaces__py-93f0b97454136925368b.json",
+					"name" : "ros_ign_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_generator_c-8365cdce72aa239bcd23.json",
+					"name" : "ros_ign_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_generator_py-467e9104da59aed2cc10.json",
+					"name" : "ros_ign_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_c-c282b84002931b801449.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_c__pyext-8579fdbaf53f847cda27.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_cpp-71c9112d62d47fe2aa39.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_fastrtps_c-6becc1139292dbf6cd17.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext-585c577916efa86fff79.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp-b169746d01320af3915b.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_introspection_c-07ca877df8029c48436e.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext-964ed03cbd498d84c3d2.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_introspection_cpp-4bbef42ce2e598a706db.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces_uninstall-b1237214957dd01d44f3.json",
+					"name" : "ros_ign_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6ddb4998c4690d83a057.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hars22/rosws/build/ros_ign_interfaces",
+		"source" : "/home/hars22/rosws/src/ros_gz/ros_ign_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

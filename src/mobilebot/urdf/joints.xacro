@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<robot name="Robot" xmlns:xacro="http://ros.org/wiki/xacro">
+    <joint name="virtual_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="mobile_robot_body"/>
+        <origin rpy="0 0 0" xyz="0 0 0.0975"/>
+    </joint>
+    <joint name="caster_wheel_left_joint" type="continuous">
+        <parent link="mobile_robot_body"/>
+        <child link="caster_wheel_left"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0.475 -0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="caster_wheel_right_joint" type="continuous">
+        <parent link="mobile_robot_body"/>
+        <child link="caster_wheel_right"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="-0.475 -0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="driver_wheel_right_joint" type="continuous">
+        <parent link="mobile_robot_body"/>
+        <child link="driver_wheel_right"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="-0.475 0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="driver_wheel_left_joint" type="continuous">
+        <parent link="mobile_robot_body"/>
+        <child link="driver_wheel_left"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0.475 0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="manipulator_base_mobile_joint" type="fixed">
+        <parent link="mobile_robot_body"/>
+        <child link="manipulator_base"/>
+        <origin rpy="0 0 0" xyz="0 -0.1 0.13"/>
+    </joint>
+    <joint name="manipulator_base_shoulder_joint" type="revolute">
+        <parent link="manipulator_base"/>
+        <child link="manipulator_shoulder"/>
+        <axis xyz="0 0 1"/>
+        <origin rpy="0 0 0" xyz="0 0 0.17"/>
+        <limit lower="-1.57" upper="1.57" effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="manipulator_shoulder_link_joint" type="revolute">
+        <parent link="manipulator_shoulder"/>
+        <child link="manipulator_link"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0 0 0.336"/>
+        <limit lower="-1.57" upper="1.57" effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="manipulator_link_elbow_joint" type="revolute">
+        <parent link="manipulator_link"/>
+        <child link="manipulator_elbow"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0 0 0.5"/>
+        <limit lower="-1.57" upper="1.57" effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="manipulator_elbow_wrist_joint" type="revolute">
+        <parent link="manipulator_elbow"/>
+        <child link="manipulator_wrist"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0 -0.427455 0.145"/>
+        <limit lower="-1.57" upper="1.57" effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="manipulator_wrist_gripper_joint" type="revolute">
+        <parent link="manipulator_wrist"/>
+        <child link="manipulator_gripper"/>
+        <axis xyz="0 1 0"/>
+        <origin rpy="0 0 0" xyz="0 -0.105 0"/>
+        <limit lower="-1.57" upper="1.57" effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="lidar_joint" type="fixed">
+        <parent link="mobile_robot_body"/>
+        <child link="lidar_link"/>
+        <origin xyz="0 0.3 0.13" rpy="0 0 0"/>
+    </joint>
+
+</robot>

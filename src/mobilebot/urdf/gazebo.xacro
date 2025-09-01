@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot name="Robot" xmlns:xacro="http://ros.org/wiki/xacro">
+    <gazebo>
+        <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+            <robot_param>robot_description</robot_param>
+            <robot_param_node>robot_state_publisher</robot_param_node>
+            <parameters>/home/hars22/rosws/src/mobilebot_controller/config/mobilebot_controller.yaml</parameters>
+        </plugin>
+    </gazebo>
+    <gazebo reference="lidar_link">
+        <sensor type="ray" name="lidar">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            
+            <topic>/lidar_scan</topic>
+
+            <ray>
+            <scan>
+                <horizontal>
+                <samples>720</samples>
+                <resolution>1</resolution>
+                <min_angle>-1.5708</min_angle>
+                <max_angle>1.5708</max_angle>
+                </horizontal>
+            </scan>
+            <range>
+                <min>0.12</min>
+                <max>8.0</max>
+                <resolution>0.01</resolution>
+            </range>
+            </ray>
+        </sensor>
+    </gazebo>
+
+
+</robot>
