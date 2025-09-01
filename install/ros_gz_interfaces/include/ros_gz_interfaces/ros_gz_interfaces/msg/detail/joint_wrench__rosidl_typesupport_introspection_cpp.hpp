@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_gz_interfaces/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp

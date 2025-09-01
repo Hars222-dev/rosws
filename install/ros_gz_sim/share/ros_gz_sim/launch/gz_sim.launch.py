@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_gz_sim/launch/gz_sim.launch.py

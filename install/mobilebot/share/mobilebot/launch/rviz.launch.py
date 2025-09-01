@@ -1,1 +1,0 @@
-/home/hars22/rosws/src/mobilebot/launch/rviz.launch.py

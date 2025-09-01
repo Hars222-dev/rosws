@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_gz_interfaces/rosidl_generator_cpp/ros_gz_interfaces/msg/detail/material_color__builder.hpp
