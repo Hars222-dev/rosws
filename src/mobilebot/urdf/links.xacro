@@ -6,13 +6,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/body.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/body.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/body.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/body.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -25,13 +25,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_left_side.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_left_side.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_left_side.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_left_side.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -44,13 +44,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_right_side.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_right_side.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_right_side.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_right_side.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -63,13 +63,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_right_side.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_right_side.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_right_side.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_right_side.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -82,13 +82,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_left_side.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_left_side.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/wheel_left_side.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/wheel_left_side.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -101,13 +101,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Base.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Base.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Base.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Base.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -120,13 +120,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Shoulder.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Shoulder.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Shoulder.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Shoulder.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -139,13 +139,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Link.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Link.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Link.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Link.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -158,13 +158,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Elbow.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Elbow.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Elbow.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Elbow.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -177,13 +177,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Wrist.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Wrist.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Wrist.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Wrist.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>
@@ -196,13 +196,13 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Gripper.obj" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Gripper.obj" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://mobilebot/meshes/Gripper.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="file://$(find mobilebot)/meshes/Gripper.stl" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>
         <inertial>

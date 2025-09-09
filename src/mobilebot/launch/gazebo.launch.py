@@ -12,17 +12,17 @@ from os import environ
 
 def generate_launch_description():
 
-    xacro_path = os.path.join(
-        get_package_share_directory('mobilebot'),
-        'urdf',
-        'robot.urdf.xacro'
-    )
+    # Get package directory
+    pkg_share = get_package_share_directory('mobilebot')
+    
+    xacro_path = os.path.join(pkg_share, 'urdf', 'robot.urdf.xacro')
 
-    # Process the Xacro file into URDF
-    robot_desc = xacro.process_file(xacro_path).toxml()
+    # Process the Xacro file into URDF with proper substitution
+    doc = xacro.process_file(xacro_path, mappings={'package_path': pkg_share})
+    robot_desc = doc.toxml()
 
     lidar_node = Node(
-        package='ros_gz_bridge',
+        package='ros_ign_bridge',
         executable='parameter_bridge',
         arguments=[
             '/lidar_scan@sensor_msgs/msg/LaserScan@ignition.msgs.LaserScan'
@@ -33,38 +33,31 @@ def generate_launch_description():
         output='screen'
     )
 
-
     rsp_node = Node(
-    package='robot_state_publisher',
-    executable='robot_state_publisher',
-    parameters=[{'robot_description': robot_desc}],
-    output='screen'
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        parameters=[{'robot_description': robot_desc}],
+        output='screen'
     )
 
-    # Launch Gazebo Sim with default world
+    # Set environment variable for Ignition Gazebo
+    set_env_var = SetEnvironmentVariable(
+        name='IGN_GAZEBO_RESOURCE_PATH',
+        value=f"{pkg_share}:{os.environ.get('IGN_GAZEBO_RESOURCE_PATH', '')}"
+    )
+
+    # Launch Gazebo Sim
     gazebo = ExecuteProcess(
-        cmd=[
-        'ign', 'gazebo', '-r', '-v', '4',
-        os.path.join(
-            get_package_share_directory('mobilebot'),
-            'worlds',
-            'my_world.world'
-        )
-    ],
-    output='screen',
-    additional_env={
-        'LD_LIBRARY_PATH': environ['LD_LIBRARY_PATH'],
-        'GZ_SIM_RESOURCE_PATH': os.path.expanduser('~/rosws/src/meshes')
-    }   
-)
+        cmd=['ign', 'gazebo', '-r', '-v', '4', 'empty.sdf'],
+        output='screen'
+    )
 
-
-    # Spawn robot entity in Gazebo (with a delay to ensure Gazebo is ready)
+    # Spawn robot entity in Gazebo
     spawn_entity = TimerAction(
-        period=5.0,  # wait 5 seconds before spawning
+        period=5.0,
         actions=[
             Node(
-                package='ros_gz_sim',
+                package='ros_ign_gazebo',
                 executable='create',
                 arguments=[
                     '-topic', '/robot_description',
@@ -77,26 +70,28 @@ def generate_launch_description():
     )
 
     joint_state_broadcaster_spawner = Node(
-        package = "controller_manager",
-        executable = "spawner",
+        package="controller_manager",
+        executable="spawner",
         arguments=[
             "joint_state_broadcaster",
             "--controller-manager",
             "/controller_manager"
         ]
     )
+    
     arm_controller_spawner = Node(
-        package = "controller_manager",
-        executable = "spawner",
+        package="controller_manager",
+        executable="spawner",
         arguments=[
             "arm_controller",
             "--controller-manager",
             "/controller_manager"
         ]
     )
+    
     wheel_controller_spawner = Node(
-        package = "controller_manager",
-        executable = "spawner",
+        package="controller_manager",
+        executable="spawner",
         arguments=[
             "wheel_controller",
             "--controller-manager",
@@ -105,6 +100,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        set_env_var,
         rsp_node,
         lidar_node,
         gazebo,

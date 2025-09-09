@@ -1,0 +1,22 @@
+[0.040s] Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.351s] Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.366s] Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
+[0.388s] -- Install configuration: ""
+[0.389s] -- Execute custom install script
+[0.393s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/config/mobilebot_controller.yaml
+[0.394s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/ament_index/resource_index/package_run_dependencies/mobilebot_controller
+[0.397s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/ament_index/resource_index/parent_prefix_path/mobilebot_controller
+[0.397s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/ament_prefix_path.sh
+[0.397s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/ament_prefix_path.dsv
+[0.398s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/path.sh
+[0.399s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/path.dsv
+[0.401s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.bash
+[0.401s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.sh
+[0.404s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.zsh
+[0.405s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.dsv
+[0.405s] -- Symlinking: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.dsv
+[0.460s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/ament_index/resource_index/packages/mobilebot_controller
+[0.461s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/cmake/mobilebot_controllerConfig.cmake
+[0.463s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/cmake/mobilebot_controllerConfig-version.cmake
+[0.463s] -- Up-to-date symlink: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.xml
+[0.464s] Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
