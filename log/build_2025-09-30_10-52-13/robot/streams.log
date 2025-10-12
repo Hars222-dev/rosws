@@ -1,0 +1,20 @@
+[0.847s] Invoking command in '/home/hars22/rosws/src/robot': PYTHONPATH=/home/hars22/rosws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hars22/rosws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/hars22/rosws/build/robot/build install --record /home/hars22/rosws/build/robot/install.log --single-version-externally-managed install_data
+[1.062s] running egg_info
+[1.062s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[1.062s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[1.062s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[1.063s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[1.063s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[1.064s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.064s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.064s] running build
+[1.064s] running build_py
+[1.065s] running install
+[1.065s] running install_lib
+[1.066s] running install_data
+[1.066s] running install_egg_info
+[1.067s] removing '/home/hars22/rosws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.072s] Copying ../../build/robot/robot.egg-info to /home/hars22/rosws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[1.075s] running install_scripts
+[1.088s] writing list of installed files to '/home/hars22/rosws/build/robot/install.log'
+[1.112s] Invoked command in '/home/hars22/rosws/src/robot' returned '0': PYTHONPATH=/home/hars22/rosws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hars22/rosws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/hars22/rosws/build/robot/build install --record /home/hars22/rosws/build/robot/install.log --single-version-externally-managed install_data

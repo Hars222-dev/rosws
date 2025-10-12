@@ -1,1 +1,10 @@
-/home/hars22/rosws/src/mobilebot/urdf/robot.urdf.xacro
+<?xml version="1.0"?>
+<robot name="Robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:include filename="$(find mobilebot)/urdf/gazebo.xacro"/>
+    <xacro:include filename="$(find mobilebot)/urdf/ros2_control.xacro"/>
+    <xacro:include filename="$(find mobilebot)/urdf/transmission.xacro"/>]
+    <xacro:include filename="$(find mobilebot)/urdf/links.xacro"/>
+    <xacro:include filename="$(find mobilebot)/urdf/joints.xacro"/>
+
+</robot>

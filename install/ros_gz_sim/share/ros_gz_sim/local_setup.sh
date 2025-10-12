@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_gz_sim/ament_cmake_environment_hooks/local_setup.sh

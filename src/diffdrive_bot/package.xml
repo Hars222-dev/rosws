@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>diffdrive_bot</name>
+  <version>0.0.1</version>
+  <description>Diff-drive mobile robot package with ros2_control and Ignition Gazebo integration</description>
+  <maintainer email="hars22@example.com">Harsith</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>xacro</build_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>diff_drive_controller</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>ros_ign_gazebo</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+
+  <!-- Optional test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

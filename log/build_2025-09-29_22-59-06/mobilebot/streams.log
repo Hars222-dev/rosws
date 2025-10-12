@@ -1,0 +1,71 @@
+[0.034s] Invoking command in '/home/hars22/rosws/build/mobilebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot -- -j4 -l4
+[0.151s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.491s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.556s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.556s] -- Added test 'lint_cmake' to check CMake code style
+[0.556s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.558s] -- Added test 'xmllint' to check XML markup files
+[0.559s] -- Configuring done
+[0.562s] -- Generating done
+[0.563s] -- Build files have been written to: /home/hars22/rosws/build/mobilebot
+[0.577s] Invoked command in '/home/hars22/rosws/build/mobilebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot -- -j4 -l4
+[0.579s] Invoking command in '/home/hars22/rosws/build/mobilebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot
+[0.586s] -- Install configuration: ""
+[0.586s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes
+[0.586s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Base.stl
+[0.586s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Gripper.mtl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Link.obj
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Gripper.obj
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Shoulder.obj
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Wrist.stl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Shoulder.mtl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Base.obj
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/body.obj
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/wheel_right_side.stl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Link.stl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/wheel_left_side.stl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Gripper.stl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/wheel_right_side.obj
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Wrist.obj
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/wheel_left_side.mtl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/wheel_right_side.mtl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Elbow.mtl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/body.stl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/body.mtl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Elbow.stl
+[0.587s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Elbow.obj
+[0.588s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Wrist.mtl
+[0.588s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/wheel_left_side.obj
+[0.588s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Base.mtl
+[0.592s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Shoulder.stl
+[0.592s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/meshes/Link.mtl
+[0.592s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/worlds
+[0.594s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/worlds/my_world.world
+[0.594s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/rviz
+[0.597s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/rviz/view_robot.rviz
+[0.597s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/urdf
+[0.597s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/urdf/joints.xacro
+[0.598s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/urdf/ros2_control.xacro
+[0.598s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/urdf/links.xacro
+[0.598s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/urdf/gazebo.xacro
+[0.599s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/urdf/transmission.xacro
+[0.599s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/urdf/robot.urdf.xacro
+[0.599s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/launch
+[0.599s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/launch/gazebo.launch.py
+[0.601s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/launch/rviz.launch.py
+[0.602s] -- Installing: /home/hars22/rosws/install/mobilebot/share/ament_index/resource_index/package_run_dependencies/mobilebot
+[0.603s] -- Installing: /home/hars22/rosws/install/mobilebot/share/ament_index/resource_index/parent_prefix_path/mobilebot
+[0.604s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/environment/ament_prefix_path.sh
+[0.604s] -- Installing: /home/hars22/rosws/install/mobilebot/share/mobilebot/environment/ament_prefix_path.dsv
+[0.604s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/environment/path.sh
+[0.605s] -- Installing: /home/hars22/rosws/install/mobilebot/share/mobilebot/environment/path.dsv
+[0.611s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/local_setup.bash
+[0.611s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/local_setup.sh
+[0.611s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/local_setup.zsh
+[0.612s] -- Installing: /home/hars22/rosws/install/mobilebot/share/mobilebot/local_setup.dsv
+[0.614s] -- Installing: /home/hars22/rosws/install/mobilebot/share/mobilebot/package.dsv
+[0.614s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/ament_index/resource_index/packages/mobilebot
+[0.615s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/cmake/mobilebotConfig.cmake
+[0.615s] -- Up-to-date: /home/hars22/rosws/install/mobilebot/share/mobilebot/cmake/mobilebotConfig-version.cmake
+[0.615s] -- Installing: /home/hars22/rosws/install/mobilebot/share/mobilebot/package.xml
+[0.625s] Invoked command in '/home/hars22/rosws/build/mobilebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot

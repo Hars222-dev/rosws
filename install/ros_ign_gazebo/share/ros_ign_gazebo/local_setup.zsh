@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_ign_gazebo/ament_cmake_environment_hooks/local_setup.zsh

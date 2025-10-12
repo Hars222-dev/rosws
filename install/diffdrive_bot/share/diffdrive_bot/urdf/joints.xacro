@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<robot name="diffbot" xmlns:xacro="http://ros.org/wiki/xacro">
+    
+    <joint name="caster_wheel_left_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="caster_wheel_left"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0.475 -0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="caster_wheel_right_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="caster_wheel_right"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="-0.475 -0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="driver_wheel_right_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="driver_wheel_right"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="-0.475 0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    <joint name="driver_wheel_left_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="driver_wheel_left"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0.475 0.2275 0.065"/>
+        <limit effort="30.0" velocity="10.0"/>
+    </joint>
+    
+
+</robot>

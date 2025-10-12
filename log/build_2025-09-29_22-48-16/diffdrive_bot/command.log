@@ -1,0 +1,4 @@
+Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot
+Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot

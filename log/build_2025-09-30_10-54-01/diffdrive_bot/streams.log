@@ -1,0 +1,41 @@
+[0.033s] Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+[0.444s] Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+[0.445s] Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot
+[0.469s] -- Install configuration: ""
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.obj
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.stl
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.stl
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.obj
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.mtl
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.mtl
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.stl
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.mtl
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.obj
+[0.469s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/config
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/config/diffdrive_bot_controller.yaml
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/joints.xacro
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/ros2_control.xacro
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/links.xacro
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/gazebo.xacro
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/transmission.xacro
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/diff_bot.urdf.xacro
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/launch
+[0.470s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/launch/gazebo.launch.py
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/package_run_dependencies/diffdrive_bot
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/parent_prefix_path/diffdrive_bot
+[0.470s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.sh
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.dsv
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.sh
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.dsv
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.bash
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.sh
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.zsh
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.dsv
+[0.471s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.dsv
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/packages/diffdrive_bot
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig.cmake
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig-version.cmake
+[0.471s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.xml
+[0.471s] Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot

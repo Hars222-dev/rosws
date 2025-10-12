@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_ign_interfaces/ament_cmake_python/ros_ign_interfaces/ros_ign_interfaces.egg-info/SOURCES.txt

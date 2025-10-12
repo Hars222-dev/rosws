@@ -1,1 +1,1 @@
-/home/hars22/rosws/build/mobilebot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mobilebot
+launch;ros2launch;launch_ros;ament_index_python;ros2_control_node;diff_drive_controller;robot_state_publisher;joint_state_broadcaster;ros_ign_gazebo;ament_lint_auto;ament_lint_common

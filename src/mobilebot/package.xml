@@ -16,6 +16,15 @@
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
   <exec_depend>ament_index_python</exec_depend>
+  <build_depend>ament_cmake</build_depend>
+  <build_depend>xacro</build_depend>
+  <exec_depend>ros2_control_node</exec_depend>
+  <exec_depend>diff_drive_controller</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>ros_ign_gazebo</exec_depend>
+
+
 
 
   <export>

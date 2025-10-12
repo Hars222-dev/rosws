@@ -1,0 +1,20 @@
+[0.023s] Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+[0.303s] Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+[0.305s] Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot
+[0.313s] -- Install configuration: ""
+[0.313s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/package_run_dependencies/diffdrive_bot
+[0.313s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/parent_prefix_path/diffdrive_bot
+[0.313s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.sh
+[0.314s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.dsv
+[0.314s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.sh
+[0.314s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.dsv
+[0.314s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.bash
+[0.314s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.sh
+[0.314s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.zsh
+[0.314s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.dsv
+[0.314s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.dsv
+[0.316s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/packages/diffdrive_bot
+[0.316s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig.cmake
+[0.316s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig-version.cmake
+[0.316s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.xml
+[0.322s] Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot

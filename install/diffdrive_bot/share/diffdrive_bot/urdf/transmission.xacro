@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="diffbot" xmlns:xacro="http://ros.org/wiki/xacro">
+    
+    <transmission name="transmission_1">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="driver_wheel_right_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="driver_wheel_right_actuator">
+            <mechanicalReduction>1.0</mechanicalReduction>
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </actuator>
+    </transmission>
+    <transmission name="transmission_2">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="driver_wheel_left_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="driver_wheel_left_actuator">
+            <mechanicalReduction>1.0</mechanicalReduction>
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </actuator>
+    </transmission>
+
+</robot>

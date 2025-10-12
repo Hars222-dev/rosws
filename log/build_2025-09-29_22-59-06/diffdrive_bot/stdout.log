@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hars22/rosws/build/diffdrive_bot
+-- Install configuration: ""
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.obj
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.stl
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.stl
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.obj
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.mtl
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.mtl
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.stl
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.mtl
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.obj
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/config
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/config/diffdrive_bot_controller.yaml
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/joints.xacro
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/ros2_control.xacro
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/links.xacro
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/gazebo.xacro
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/transmission.xacro
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/diff_bot.urdf.xacro
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/launch
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/launch/gazebo.launch.py
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/package_run_dependencies/diffdrive_bot
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/parent_prefix_path/diffdrive_bot
+-- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.sh
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.sh
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.dsv
+-- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.bash
+-- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.sh
+-- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.zsh
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.dsv
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.dsv
+-- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/packages/diffdrive_bot
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig.cmake
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig-version.cmake
+-- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.xml

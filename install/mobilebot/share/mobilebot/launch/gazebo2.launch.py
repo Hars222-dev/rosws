@@ -1,1 +1,0 @@
-/home/hars22/rosws/src/mobilebot/launch/gazebo2.launch.py

@@ -9,12 +9,7 @@
     </gazebo>
     <gazebo reference="lidar_link">
         <sensor type="ray" name="lidar">
-            <pose>0 0 0 0 0 0</pose>
-            <visualize>true</visualize>
-            <update_rate>10.0</update_rate>
-            
-            <topic>/lidar_scan</topic>
-
+            <update_rate>10</update_rate>
             <ray>
             <scan>
                 <horizontal>
@@ -30,8 +25,13 @@
                 <resolution>0.01</resolution>
             </range>
             </ray>
+
+            <!-- ROS 2 plugin for Ignition/Fortress -->
+            <plugin name="ros2_laser" filename="gz-sim-ros2-ray-sensor-system">
+            <topic>lidar_scan</topic>
+            <frame_name>lidar_link</frame_name>
+            </plugin>
         </sensor>
     </gazebo>
-
 
 </robot>

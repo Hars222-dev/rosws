@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_ign_interfaces/rosidl_cmake/srv/DeleteEntity_Response.msg

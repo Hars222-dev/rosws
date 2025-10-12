@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_gz_interfaces/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp

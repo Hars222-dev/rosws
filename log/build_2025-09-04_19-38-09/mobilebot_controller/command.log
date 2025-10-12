@@ -1,4 +1,0 @@
-Invoking command in '/home/hars22/rosws/build/mobilebot_controller': /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
-Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
-Invoking command in '/home/hars22/rosws/build/mobilebot_controller': /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
-Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller

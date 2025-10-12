@@ -1,1 +1,2 @@
-/home/hars22/rosws/build/mobilebot_controller/ament_cmake_environment_hooks/local_setup.dsv
+source;share/mobilebot_controller/environment/ament_prefix_path.sh
+source;share/mobilebot_controller/environment/path.sh

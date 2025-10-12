@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_ign_interfaces/rosidl_typesupport_introspection_c/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h

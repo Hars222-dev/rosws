@@ -1,1 +1,0 @@
-/home/hars22/rosws/src/ros_gz/ros_ign_interfaces/msg/Contacts.msg

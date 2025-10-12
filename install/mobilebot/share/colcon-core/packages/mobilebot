@@ -1,1 +1,1 @@
-ament_index_python:launch:launch_ros:ros2launch
+ament_index_python:diff_drive_controller:joint_state_broadcaster:launch:launch_ros:robot_state_publisher:ros2_control_node:ros2launch:ros_ign_gazebo

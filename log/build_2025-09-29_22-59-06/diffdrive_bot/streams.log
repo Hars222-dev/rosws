@@ -1,0 +1,50 @@
+[0.039s] Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+[0.159s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.415s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.551s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.555s] -- Added test 'lint_cmake' to check CMake code style
+[0.555s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.555s] -- Added test 'xmllint' to check XML markup files
+[0.557s] -- Configuring done
+[0.569s] -- Generating done
+[0.572s] -- Build files have been written to: /home/hars22/rosws/build/diffdrive_bot
+[0.595s] Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/diffdrive_bot -- -j4 -l4
+[0.596s] Invoking command in '/home/hars22/rosws/build/diffdrive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot
+[0.601s] -- Install configuration: ""
+[0.601s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes
+[0.601s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.obj
+[0.602s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.stl
+[0.620s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.stl
+[0.633s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.obj
+[0.636s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.mtl
+[0.637s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_right_side.mtl
+[0.638s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.stl
+[0.639s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/body.mtl
+[0.639s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/meshes/wheel_left_side.obj
+[0.643s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/config
+[0.643s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/config/diffdrive_bot_controller.yaml
+[0.643s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf
+[0.643s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/joints.xacro
+[0.643s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/ros2_control.xacro
+[0.643s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/links.xacro
+[0.644s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/gazebo.xacro
+[0.644s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/transmission.xacro
+[0.644s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/urdf/diff_bot.urdf.xacro
+[0.645s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/launch
+[0.645s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/launch/gazebo.launch.py
+[0.646s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/package_run_dependencies/diffdrive_bot
+[0.646s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/parent_prefix_path/diffdrive_bot
+[0.646s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.sh
+[0.646s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/ament_prefix_path.dsv
+[0.646s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.sh
+[0.646s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/environment/path.dsv
+[0.646s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.bash
+[0.647s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.sh
+[0.647s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.zsh
+[0.647s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/local_setup.dsv
+[0.647s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.dsv
+[0.647s] -- Up-to-date: /home/hars22/rosws/install/diffdrive_bot/share/ament_index/resource_index/packages/diffdrive_bot
+[0.647s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig.cmake
+[0.647s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/cmake/diffdrive_botConfig-version.cmake
+[0.647s] -- Installing: /home/hars22/rosws/install/diffdrive_bot/share/diffdrive_bot/package.xml
+[0.649s] Invoked command in '/home/hars22/rosws/build/diffdrive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/diffdrive_bot

@@ -1,1 +1,0 @@
-/home/hars22/rosws/build/ros_gz_interfaces/rosidl_cmake/srv/SetEntityPose_Request.msg

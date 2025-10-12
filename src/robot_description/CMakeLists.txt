@@ -7,6 +7,7 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 
+# Install resource directories (only if they exist!)
 install(
   DIRECTORY meshes/
   DESTINATION share/${PROJECT_NAME}/meshes
@@ -22,6 +23,10 @@ install(
 install(
   DIRECTORY worlds/
   DESTINATION share/${PROJECT_NAME}/worlds
+)
+install(
+  DIRECTORY rviz/
+  DESTINATION share/${PROJECT_NAME}/rviz
 )
 
 if(BUILD_TESTING)

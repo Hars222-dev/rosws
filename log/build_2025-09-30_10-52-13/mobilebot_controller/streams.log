@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.321s] Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/hars22/rosws/build/mobilebot_controller -- -j4 -l4
+[0.330s] Invoking command in '/home/hars22/rosws/build/mobilebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
+[0.347s] -- Install configuration: ""
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/config
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/config/mobilebot_controller.yaml
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/config/manipulator_controller.yaml
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/config
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/config/chat_controller.launch.py
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/config/controller.launch.py
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/ament_index/resource_index/package_run_dependencies/mobilebot_controller
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/ament_index/resource_index/parent_prefix_path/mobilebot_controller
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/ament_prefix_path.sh
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/ament_prefix_path.dsv
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/path.sh
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/environment/path.dsv
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.bash
+[0.347s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.sh
+[0.348s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.zsh
+[0.348s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/local_setup.dsv
+[0.348s] -- Installing: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.dsv
+[0.348s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/ament_index/resource_index/packages/mobilebot_controller
+[0.348s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/cmake/mobilebot_controllerConfig.cmake
+[0.348s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/cmake/mobilebot_controllerConfig-version.cmake
+[0.348s] -- Up-to-date: /home/hars22/rosws/install/mobilebot_controller/share/mobilebot_controller/package.xml
+[0.348s] Invoked command in '/home/hars22/rosws/build/mobilebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hars22/rosws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/hars22/rosws/build/mobilebot_controller
